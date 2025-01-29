@@ -27,7 +27,7 @@ namespace PolymorphismExercise
 
         public override string ToString()
         {
-            return base.ToString() + $"\nHours = {Hours}\nWage = {Wage:C}\n\n";
+            return base.ToString() + $"\nHours = {Hours}\nWage = {Wage:C}";
         }
     }
 }

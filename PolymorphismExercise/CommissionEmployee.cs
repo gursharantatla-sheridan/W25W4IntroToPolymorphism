@@ -24,7 +24,7 @@ namespace PolymorphismExercise
 
         public override string ToString()
         {
-            return base.ToString() + $"\nGross Sales = {GrossSales:C}\nCommission Rate = {CommissionRate:P}\n\n";
+            return base.ToString() + $"\nGross Sales = {GrossSales:C}\nCommission Rate = {CommissionRate:P}";
         }
     }
 }
